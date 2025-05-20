@@ -8,9 +8,9 @@ const borough = {
   'The Bronx': 'The Bronx'
 }
 
-function App() {
-  const color = "blue";
+const color = "lightblue";
 
+function App() {
   return (
     <>
       <BoroughCard borough={borough['Manhattan']} bgColor={color}/>
